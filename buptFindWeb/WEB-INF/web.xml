@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServAddFindOwners</servlet-name>
+    <servlet-class>buptFindWeb.ServAddFindOwners</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServAddFindThings</servlet-name>
+    <servlet-class>buptFindWeb.ServAddFindThings</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServAddMessage</servlet-name>
+    <servlet-class>buptFindWeb.ServAddMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServMessageDetails</servlet-name>
+    <servlet-class>buptFindWeb.ServMessageDetails</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServContact</servlet-name>
+    <servlet-class>buptFindWeb.ServContact</servlet-class>
+  </servlet>
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>ServAddFindOwners</servlet-name>
+    <url-pattern>/ServAddFindOwners</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServAddFindThings</servlet-name>
+    <url-pattern>/ServAddFindThings</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServAddMessage</servlet-name>
+    <url-pattern>/ServAddMessage</url-pattern>
+  </servlet-mapping>
+
+</web-app>

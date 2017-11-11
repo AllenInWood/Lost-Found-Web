@@ -1,0 +1,111 @@
+.navbar-test{
+	position: :relative;
+	margin-bottom: 0px;
+	background-color: rgb(234,234,234);
+}
+
+#TopBar{
+	width:100%;
+	background-color:rgb(0,74,120);
+	height:115px;
+	overflow: hidden;
+}
+.navbar-brand {
+	font: normal 14px/20px "Î¢ÈíÑÅºÚ";
+	padding: 15px 15px;
+}
+.im{
+	margin-top: 15px;
+}
+
+.top{
+	color:white;
+	font-family: "Î¢ÈíÑÅºÚ";
+}
+.bar{
+	line-height: 110px;
+	padding: 15px;
+}
+@media (max-width: 1439px)
+#picture{
+	background-size: auto 100%;
+}
+
+#picture {
+  width: 100%;
+  height: 411px;
+  background-image: url(../img/topBar.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+@media all and (max-width: 1600px){
+	#picture {
+		background-size: auto 100%;
+	}
+}
+.news{
+  background-color: #FFFFFF;
+  border: 1px solid #e2e2e2;
+  margin-top: 10px;
+}
+.ba{
+	border-bottom:1px solid #b2b2b0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	font-weight: bolder;
+	font-size: 25px;
+	font-family: "Î¢ÈíÑÅºÚ";
+}
+.ba1{
+	text-align: center;
+}
+.zhu{
+	margin-top: 15px;
+	float: right;
+	font-weight: none;
+	font-size: 15px;
+}
+.dianji{
+	margin-top: 6px;
+	margin-left: 10px;
+	font-size: 12px;
+	float: left;
+	width:95%;
+	margin-bottom: 10px;
+}
+
+.dianji1{
+	float: left;
+}
+
+.dianji2{
+	float:right;
+	color: #b2b2b0;
+}
+
+.jidian{
+	margin-left: 0px;
+}
+
+.kuai{
+	border-bottom: 1px solid #b2b2b0;
+	width: 100%;
+	height: 420px;
+}
+.kuai1{
+    width: 100%;
+    height:600px;
+}
+.search{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.info {
+	width: 100%;
+	text-align: center;
+	color: #595959;
+	margin-bottom: 5px;
+}
